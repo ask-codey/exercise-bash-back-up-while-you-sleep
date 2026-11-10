@@ -1,0 +1,4 @@
+# The script makes these folders when it runs: the backup, and its log and lock.
+backup/
+logs/
+restore-test/

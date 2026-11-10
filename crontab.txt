@@ -1,0 +1,9 @@
+# crontab.txt: the line that runs nightly-backup.sh every evening.
+#
+# 8. Under these comments, write one line: the five time fields for 18:00 every
+#    day, then the full path of nightly-backup.sh, from / to its name (pwd in
+#    this folder shows the start of it). On a Mac, put Homebrew's bash in front:
+#    /opt/homebrew/bin/bash /Users/your-name/.../nightly-backup.sh
+#
+# This file doesn't schedule anything by itself. When your script passes its
+# check, copy the line into your crontab with crontab -e.
